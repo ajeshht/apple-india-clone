@@ -14,3 +14,56 @@ body {
     font-size: 12px;
     font-weight: 200;
 }
+header{
+    padding: 0.1rem 0px 10px 0px;
+    margin: 13px 270px 0px 270px;
+}
+
+.ribbon{
+    display: flex;
+    justify-content: center;
+    background-color:#1d1d1f;
+    width: 100%;
+    height: auto;
+}
+.ribbon p{
+    font-size: 14px;
+}
+#hero-sec{
+    width: 100%;
+    height: 600px;
+    background-image: url('./assets/hero-lg.jpg');
+    background-size: cover;       
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#hero-sec h1{
+    font-size: 3.5rem;
+}
+#hero-sec h3{
+    background: linear-gradient(to right,#d4e157 20%,#e5eab9 0%,#00bfff 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+#hero-sec p{
+    color: rgb(149, 147, 147);
+}
+#learnmore-btn{
+    background-color: rgb(71, 71, 240);
+    color: white;
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px;
+}
+#pre-order-btn{
+    background-color: transparent;
+    color: rgb(71, 71, 240);
+    border: solid 1px rgb(71, 71, 240);
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px;
+}
