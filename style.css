@@ -24,9 +24,11 @@ header{
     justify-content: center;
     background-color:#1d1d1f;
     width: 100%;
+    
     height: auto;
 }
 .ribbon p{
+    padding: 16px 0px;
     font-size: 14px;
 }
 #hero-sec{
@@ -38,7 +40,7 @@ header{
     background-repeat: no-repeat;
 }
 #hero-sec h1{
-    font-size: 3.5rem;
+    font-size: 3.6rem;
 }
 #hero-sec h3{
     background: linear-gradient(to right,#d4e157 20%,#e5eab9 0%,#00bfff 100%);
@@ -52,7 +54,7 @@ header{
     color: rgb(149, 147, 147);
 }
 #learnmore-btn{
-    background-color: rgb(71, 71, 240);
+    background-color: rgb(85, 85, 246);
     color: white;
     border: none;
     width: 8rem;
@@ -62,8 +64,84 @@ header{
 #pre-order-btn{
     background-color: transparent;
     color: rgb(71, 71, 240);
-    border: solid 1px rgb(71, 71, 240);
+    border: solid 1px rgb(85, 85, 246);
     width: 8rem;
     height: 3rem;
     border-radius: 25px;
+}
+#buy-btn{
+    background-color: transparent;
+    color: rgb(85, 85, 246);
+    border: solid 1px rgb(85, 85, 246);
+    width: 5rem;
+    height: 3rem;
+    border-radius: 25px;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+#hero-sec-2{
+    height: 580px;
+    width: 100%;
+    background-image: url(./assets/hero-2-img6.jpg);
+    background-size:auto;       
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#hero-sec-2 h1{
+    font-size: 3.6rem;
+}
+#hero-sec-3{
+    height: 580px;
+    width: 100%;
+    background-image: url(./assets/hero-3-img4.jpg);
+    background-size:cover;       
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#hero-sec-3 h1{
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: black;
+}
+#hero-sec-3 h3{
+    color: black;
+}
+
+#imac{
+    height:580px;
+    background-image: url(./assets/imac4.jpg);
+    background-size:cover;       
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#imac h1{
+    font-size: 3rem;
+    font-weight: 470;
+    color: black;
+
+}
+#ipad{
+    height:580px;
+    background-image: url(./assets/ipad1.jpg);
+    background-size:cover;       
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#ipad h1{
+    font-size: 3rem;
+    color: black;
+
+}
+#mini{
+    font-family: 'Momo Signature', cursive;
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: transparent;
+    background: linear-gradient(to right,#193164 0%,#56ccf4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
