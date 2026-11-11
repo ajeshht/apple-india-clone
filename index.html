@@ -24,9 +24,10 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <div class="container-fluid m-0 p-0">
-        <header class="d-flex align-items-center justify-content-between bg-black px-4 py-2">
+<body class="container-fluid m-0 p-0">
+
+    <header class="w-100 sticky-top k p-1">
+        <div class="d-flex align-items-center justify-content-between bg-transparent sticky-top" id="header-links">
             <i class="fa-brands fa-apple text-white"></i>
             <a href="#" class="nav-option text-white text-decoration-none">Store</a>
             <a href="#" class="nav-option text-white text-decoration-none">Mac</a>
@@ -40,120 +41,411 @@
             <a href="#" class="nav-option text-white text-decoration-none">Support</a>
             <i class="fa-solid fa-magnifying-glass text-white"></i>
             <i class="fa-solid fa-bag-shopping text-white"></i>
-        </header>
-
-        <div class="ribbon  text-white text-center py-2">
-            <p class="m-0 fw-medium">Get up to 12 months of No Cost EMI plus up to ₹15000 instant cashback on selected
-                products with eligible cards. <a href="#" class="text-white text-decoration-underline">Shop</a></p>
         </div>
+    </header>
+
+    <div class="ribbon  text-white text-center py-2">
+        <p class="m-0 fw-medium">Get up to 12 months of No Cost EMI plus up to ₹15000 instant cashback on selected
+            products with eligible cards. <a href="#" class="text-white text-decoration-underline">Shop</a></p>
+    </div>
 
 
-        <section class="text-center text-white" id="hero-sec">
-            <h1 class="pt-5">MacBook Pro</h1>
-            <h3 class="fw-normal">PROLED XDR Display</h3>
-            <p class="fw-light">Available from 9 November</p>
-            <div>
-                <button class="btn btn-primary m-2" id="learnmore-btn">Learn more</button>
-                <button class="btn btn-outline-light" id="pre-order-btn">Pre-order</button>
-            </div>
-        </section>
-        <div class="bar">
+
+    <section class="text-center text-white" id="hero-sec">
+        <h1 class="pt-5">MacBook Pro</h1>
+        <h3 class="fw-normal">PROLED XDR Display</h3>
+        <p class="fw-light">Available from 9 November</p>
+        <div>
+            <button class="btn btn-primary m-2" id="learnmore-btn">Learn more</button>
+            <button class="btn btn-outline-light" id="pre-order-btn">Pre-order</button>
         </div>
+    </section>
+    <div class="bar">
+    </div>
 
-        <section class="text-center text-white" id="hero-sec-2">
-            <h1 class="pt-5">MacBook Pro</h1>
-            <h3 class="fw-normal">14" model now with M6.</h3>
+    <section class="text-center text-white" id="hero-sec-2">
+        <h1 class="pt-5">MacBook Pro</h1>
+        <h3 class="fw-normal">14" model now with M6.</h3>
+        <div>
+            <button class="btn btn-primary m-2" id="learnmore-btn">Learn more</button>
+            <button class="buy-btn">Buy</button>
+        </div>
+    </section>
+    <div class="bar">
+    </div>
+
+    <section class="text-center text-white" id="hero-sec-3">
+        <h1 class="pt-5">iPhone Duo</h1>
+        <h3 class="fw-normal">Hello, hello.</h3>
+        <div>
+            <button class="btn btn-primary m-2" id="learnmore-btn">Learn more</button>
+            <button class="buy-btn">Buy</button>
+        </div>
+    </section>
+    <div class="bar">
+    </div>
+
+    <section class="row justify-content-between mx-0 text-white bg-body">
+        <div class="col ms-3 me-1 text-center bg-black p-5" id="imac">
+            <h1 class="fw-semibold">iMac</h1>
+            <h3 class="fs-4 fw-normal text-black">A<span class="text-success ">I</span><span
+                    class="text-warning">I</span><span class="text-danger">I</span><span class="text-info">I</span><span
+                    class="text-primary">I</span> that.</h3>
+            <h3 class="fs-5 text-black fw-normal">And a brand-new chip.</h3>
             <div>
-                <button class="btn btn-primary m-2" id="learnmore-btn">Learn more</button>
+                <button class=" m-2" id="learnmore-btn">Learn more</button>
                 <button class="buy-btn">Buy</button>
             </div>
-        </section>
-        <div class="bar">
         </div>
-
-        <section class="text-center text-white" id="hero-sec-3">
-            <h1 class="pt-5">iPhone Duo</h1>
-            <h3 class="fw-normal">Hello, hello.</h3>
+        <div class="col me-3 ms-1 text-center bg-black p-5" id="ipad">
+            <h1 class="fw-semibold">iPad <span id="mini">mini</span>
+            </h1>
+            <h3 class="fs-5 fw-normal text-black">More than a little awesome.</h3>
             <div>
-                <button class="btn btn-primary m-2" id="learnmore-btn">Learn more</button>
-                <button class="buy-btn" >Buy</button>
+                <button class=" m-2" id="learnmore-btn">Learn more</button>
+                <button class="buy-btn">Buy</button>
             </div>
-        </section>
-        <div class="bar">
         </div>
-
-        <section class="row justify-content-between mx-0 text-white bg-body">
-            <div class="col ms-3 me-1 text-center bg-black p-5" id="imac">
-                <h1 class="fw-semibold">iMac</h1>
-                <h3 class="fs-4 fw-normal text-black">A<span class="text-success ">I</span><span
-                        class="text-warning">I</span><span class="text-danger">I</span><span
-                        class="text-info">I</span><span class="text-primary">I</span> that.</h3>
-                <h3 class="fs-5 text-black fw-normal">And a brand-new chip.</h3>
-                <div>
-                    <button class=" m-2" id="learnmore-btn">Learn more</button>
-                    <button class="buy-btn" >Buy</button>
-                </div>
-            </div>
-            <div class="col me-3 ms-1 text-center bg-black p-5" id="ipad">
-                <h1 class="fw-semibold">iPad <span id="mini">mini</span>
-                </h1>
-                <h3 class="fs-5 fw-normal text-black">More than a little awesome.</h3>
-                <div>
-                    <button class=" m-2" id="learnmore-btn">Learn more</button>
-                    <button class="buy-btn" >Buy</button>
-                </div>
-            </div>
-        </section>
-        <div class="bar">
-        </div>
-        <section class="row justify-content-between mx-0 text-white bg-body">
-            <div class="col ms-3 me-1 text-center bg-black p-5" id="iphone-pro">
-                <h1 class="fw-semibold">iPhone 18 Pro</h1>
-                <h3 class="fs-4 fw-normal text-light">Pro further.</h3>
-                <div>
-                    <button class=" m-2" id="learnmore-btn">Learn more</button>
-                    <button class="buy-btn" >Buy</button>
-                </div>
-            </div>
-            <div class="col me-3 ms-1 text-center bg-black p-5" id="iwatch">
-                <h1 class="fw-semibold"><i class="fa-brands fa-apple text-white"></i>WATCH <span
-                        class="fw-light fs-1">SERIES 12</span>
-                </h1>
-                <div id="watch-controls">
-                    <h3 class="fs-5 fw-normal text-light">The most accurate heart rate <br> sensing in a wearable.</h3>
-                    <div>
-                        <button class=" m-2" id="learnmore-btn">Learn more</button>
-                        <button class="buy-btn">Buy</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="bar">
-        </div>
-        <section class="row justify-content-between mx-0 text-white bg-body">
-            <div class="col ms-3 me-1 text-center bg-black p-5" id="festive">
-                <h1 class="fw-semibold text-black">Welcome Joy.</h1>
-                <h3 class="fs-4 fw-normal text-black">Celebrate the season with our festive offers.</h3>
-                <div>
-                    <button class="shop-btn">Shop</button>
-                </div>
-            </div>
-            <div class="col me-3 ms-1 text-center bg-black p-5" id="airpods">
-                <h1 class="fw-semibold"><i class="fa-brands fa-apple text-white"></i>WATCH <span
-                        class="fw-light fs-1">SERIES 12</span>
-                </h1>
-                <div id="watch-controls">
-                    <h3 class="fs-5 fw-normal text-light">The most accurate heart rate <br> sensing in a wearable.</h3>
-                    <div>
-                        <div>
-                            <button class="shop-btn">Shop</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
+    </section>
+    <div class="bar">
     </div>
+    <section class="row justify-content-between mx-0 text-white bg-body">
+        <div class="col ms-3 me-1 text-center bg-black p-5" id="iphone-pro">
+            <h1 class="fw-semibold">iPhone 18 Pro</h1>
+            <h3 class="fs-4 fw-normal text-light">Pro further.</h3>
+            <div>
+                <button class=" m-2" id="learnmore-btn">Learn more</button>
+                <button class="buy-btn">Buy</button>
+            </div>
+        </div>
+        <div class="col me-3 ms-1 text-center bg-black p-5" id="iwatch">
+            <h1 class="fw-semibold"><i class="fa-brands fa-apple text-white"></i>WATCH <span
+                    class="fw-light fs-1">SERIES 12</span>
+            </h1>
+            <div id="watch-controls">
+                <h3 class="fs-5 fw-normal text-light">The most accurate heart rate <br> sensing in a wearable.</h3>
+                <div>
+                    <button class=" m-2" id="learnmore-btn">Learn more</button>
+                    <button class="buy-btn">Buy</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bar">
+    </div>
+    <section class="row justify-content-between mx-0 text-white bg-body">
+        <div class="col ms-3 me-1 text-center bg-black p-5" id="festive">
+            <h1 class="fw-semibold text-black">Welcome Joy.</h1>
+            <h3 class="fs-4 fw-normal text-black">Celebrate the season with our festive offers.</h3>
+            <div>
+                <button class="shop-btn">Shop</button>
+            </div>
+        </div>
+        <div class="col me-3 ms-1 text-center bg-black p-5" id="airpods">
+            <h1 class="fw-semibold text-black">AirPods 5
+            </h1>
+            <div>
+                <h3 class="fs-5 fw-normal text-black">Special Edition AirPods 5 with Wireless Charging Case <br>
+                    featuring festive engraving.</h3>
+                <div>
+                    <div>
+                        <button class="shop-btn">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="bar">
+    </div>
+    <section>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item  custom">
+                    <img src="./assets/a1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Thriller</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Winner of 8 Emmy&reg Awards
+                        </h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom">
+                    <img src="./assets/b1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Adventure</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>A new threat will surface.
+                        </h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom  ">
+                    <img src="./assets/c1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Thriller</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Emmy&reg Award Winner</h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom">
+                    <img src="./assets/e1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Drama</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Happiness is a state of
+                            mind.</h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom">
+                    <img src="./assets/f1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Comedy</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Getting it together.
+                            Together.</h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom">
+                    <img src="./assets/g1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Thriller</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Who can you trust when it's
+                            all on the line?</h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom">
+                    <img src="./assets/h1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Drama</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>The truth is the top story.
+                        </h4>
+                    </div>
+                </div>
+                <div class="carousel-item custom">
+                    <img src="./assets/i1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Comedy</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Winner of 13 Emmy&reg Awards
+                        </h4>
+                    </div>
+                </div>
+                <div class="carousel-item active  custom">
+                    <img src="./assets/j1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-lg-flex">
+                        <button class="stream-btn">Stream now</button>
+                        <h1 class="fs-3 ms-3 me-2 align-content-center">Thriller</h1>
+                        <h4 class="fs-4 mt-1 align-content-center"><i class="fa-solid fa-circle px-4"
+                                style="color: rgb(255, 255, 255); font-size: 10px;"></i>Winner of 8 Emmy&reg Awards
+                        </h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer bg-light">
+            <div>
+                <p>‡Includes instant cashback and No Cost EMI.</p>
+                <p>Instant cashback is available with the purchase of an <a href="">eligible product</a> with
+                    qualifying American Express, Axis Bank and ICICI Bank cards only. Minimum transaction value of
+                    ₹10001 applies. <a href="">Click here</a> to see instant cashback amounts and eligible devices.
+                    Instant cashback is available for up to two orders per rolling 90-day period with an eligible
+                    card. Card eligibility is subject to terms and conditions between you and your card issuer.
+                    Total transaction value is calculated after any trade-in credit or eligible discount is applied.
+                    Any subsequent order adjustment(s) or cancellation(s) may result in instant cashback being
+                    recalculated, and any refund may be adjusted to account for instant cashback clawback; this may
+                    result in no refund being made to you. Offer may be revised or withdrawn at any time without any
+                    prior notice. <a href="">Additional terms apply</a>. Instant cashback is not available to business
+                    customers
+                    and cannot be combined with Apple Store for Education or Corporate Employee Purchase Plan
+                    pricing. Multiple separate orders cannot be combined for instant cashback.</p>
+                <p>From 11 October 2026 through 11 November 2026, No Cost EMI is available with the purchase of an
+                    <a href="">eligible product</a> made using qualifying cards on 3-, 6-, 9- and 12-month tenures from
+                    most
+                    leading card issuers. Eligible iPhone Duo, MacBook Pro with PROLED XDR Display, Apple Watch,
+                    AirPods and Beats products are available with No Cost EMI on 3- and 6-month tenures only.
+                    Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your card
+                    issuer, subject to your card issuer’s terms and conditions. Minimum order spend applies as per
+                    your card issuer’s threshold. No Cost EMI is not available to business customers and cannot be
+                    combined with Apple Store for Education or Corporate Employee Purchase Plan pricing. Card
+                    eligibility is subject to terms and conditions between you and your card issuer. Offer may be
+                    revised or withdrawn at any time without any prior notice. <a href="">Terms apply</a>.
+                </p>
+                <p>1. Based on data from an Apple-conducted study of heart rate accuracy, during July and August
+                    2026, utilising commercially available best-selling wearables available as of June 2026. For
+                    more information, visit <a href="">apple.com/HRAccuracy</a>.</p>
+                <p>2. Special Edition AirPods 5 with Wireless Charging Case are available from 11 October 2026
+                    through 11 November 2026 in India at Apple Store locations, the Apple Store Online and at 000800
+                    040 1966, while supplies last. Not valid with any other AirPods offer. Cannot be combined with
+                    Business, Education or Corporate Employee Purchase Plans. Quantity limit of two units per
+                    customer apply. If you need to replace or repair Special Edition AirPods 5 with Wireless
+                    Charging Case, subject to supply, Apple may provide you with standard edition AirPods 5 with
+                    Wireless Charging Case for replacement or repair.</p>
+                <p>A subscription is required for Apple TV.</p>
+                <p>Features are subject to change. Some features, applications and services may not be available in
+                    all regions or all languages.</p>
+            </div>
+            <hr>
+            <div class="d-flex">
+                <div class="footer-sections">
+                    <h5>Shop and Learn</h5>
+                    <div>
+                        <a href="">Store</a>
+                        <br>
+                        <a href="">Mac</a>
+                        <br>
+                        <a href="">iPad</a>
+                        <br>
+                        <a href="">iPhone</a>
+                        <br>
+                        <a href="">Watch</a>
+                        <br>
+                        <a href="">AirPods</a>
+                        <br>
+                        <a href="">Home</a>
+                        <br>
+                        <a href="">AirTag</a>
+                        <br>
+                        <a href="">Accessories</a>
+                        <br>
+                        <a href="">Gift Cards</a>
+                    </div>
+                    <br>
+                    <h5>Apple Wallet</h5>
+                    <a href="">Wallet</a>
+                    <br>
+                    <a href="">Apple Pay</a>
+
+                </div>
+                <div class="footer-sections">
+                    <h5>Account</h5>
+                    <div>
+                        <a href="">Manage Your Apple Account</a>
+                        <br>
+                        <a href="">Apple Store Account</a>
+                        <br>
+                        <a href="">iCloud.com</a>
+                    </div>
+                    <br>
+                    <h5>Entertainment</h5>
+                    <a href="">Apple TV</a>
+                    <br>
+                    <a href="">Apple Music</a>
+                    <br>
+                    <a href="">Apple Arcade</a>
+                    <br>
+                    <a href="">Apple Fitness+</a>
+                    <br>
+                    <a href="">Apple Podcasts</a>
+                    <br>
+                    <a href="">Apple Books</a>
+                    <br>
+                    <a href="">Apple Store</a>
+                </div>
+                <div class="footer-sections">
+                    <h5>Apple Store</h5>
+                    <a href="">Find a Store</a>
+                    <br>
+                    <a href="">Genius Bar</a>
+                    <br>
+                    <a href="">Today at Apple</a>
+                    <br>
+                    <a href="">Grop Reservations</a>
+                    <br>
+                    <a href="">Apple Camp</a>
+                    <br>
+                    <a href="">Apple Trade In</a>
+                    <br>
+                    <a href="">Ways to Buy</a>
+                    <br>
+                    <a href="">Recycling Programme</a>
+                    <br>
+                    <a href="">Order Status</a>
+                    <br>
+                    <a href="">Shopping Help</a>
+                </div>
+                <div class="footer-sections">
+                    <h5>For Business</h5>
+                    <a href="">Apple and Business</a>
+                    <br>
+                    <a href="">Shop for Business</a>
+                    <br> <br>
+                    <h5>For Education</h5>
+                    <a href="">Apple and Education</a>
+                    <br>
+                    <a href="">Shop for Education</a>
+                    <br>
+                    <a href="">Shop for University</a>
+                    <br> <br>
+                    <h5>For Healthcare</h5>
+                    <a href="">Apple and Healthcare</a>
+                    <br><br>
+                    <h5>For Government</h5>
+                    <a href="">Apple and Government</a>
+
+
+                </div>
+                <div class="footer-sections">
+                    <h5>Apple Values</h5>
+                    <a href="">Accessibility</a>
+                    <br>
+                    <a href="">Education</a>
+                    <a href="">Environment</a>
+                    <a href="">Privacy</a>
+                    <a href="">Supply Chain Innovation</a>
+                    <br><br>
+                    <h5>About Apple</h5>
+                    <a href="">Newsroom</a>
+                    <br>
+                    <a href="">Apple Leadership</a>
+                    <br>
+                    <a href="">Career Oppurtunities</a>
+                    <br>
+                    <a href="">Investors</a>
+                    <br>
+                    <a href="">Ethics & Compliance</a>
+                    <br>
+                    <a href="">Events</a>
+                    <br>
+                    <a href="">Contact Apple</a>
+                    <br> <br>
+                </div>
+            </div>
+            <br><br>
+            <p>More ways to shop: <a href="">Find an Apple Store</a> or <a href="">other retailer</a> near you. Or call
+                <a href="">000800 040 1966</a>.</p>
+            <hr>
+            <div class="d-flex justify-content-between footer-info">
+                <div>
+                    <p>Copyright &copy 2026 Apple Inc. All rights reserved.</p>
+                </div>
+                <div>
+                    <a href="">Privacy Policy</a> | <a href="">Terms of Use</a> | <a href="">Sales Policy</a> | <a
+                        href="">Legal</a> | <a href=""> Site Map</a>
+                </div>
+                <div>
+                    <a href="">India</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

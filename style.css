@@ -14,11 +14,19 @@ body {
     font-size: 12px;
     font-weight: 200;
 }
-header{
+#header-links{
+    z-index: 1000;
     padding: 0.1rem 0px 10px 0px;
     margin: 13px 270px 0px 270px;
 }
+header{
+    height: auto;
 
+    background: rgba(20, 20, 20, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    
+}
 .ribbon{
     display: flex;
     justify-content: center;
@@ -189,4 +197,57 @@ header{
 }
 #festive h1{
     margin-top: 350px;
+}
+
+#airpods{
+     height:580px;
+    background-image: url(./assets/airpods2.jpg);
+    background-size:cover;       
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.custom{
+   
+    height:700px;
+}
+.custom img{
+        height: 100%;
+        object-fit:cover;
+}
+.stream-btn{
+    font-weight:500;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+}
+.footer{
+    color: #0000008f;
+    padding: 50px 250px;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer-sections{
+    
+    height: 363px;
+    width: 20%;
+}
+.footer-sections h5{
+    color: #000000e0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer-sections a{
+    color: #000000b8;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+.footer-info a{
+    color: #000000b8;
+    text-decoration: none;
+    font-size: 12px;    
+
 }
