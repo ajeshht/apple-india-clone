@@ -21,7 +21,6 @@ body {
 }
 header{
     height: auto;
-
     background: rgba(20, 20, 20, 0.9);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -47,6 +46,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 #hero-sec h1{
     font-size: 3.6rem;
 }
@@ -222,11 +222,11 @@ header{
     border: none;
     border-radius: 40px;
 }
-.footer{
+#footer{
     color: #0000008f;
     padding: 50px 250px;
 }
-.footer p{
+#footer p{
     font-size: 12px;
 }
 .footer-sections{
@@ -250,4 +250,42 @@ header{
     text-decoration: none;
     font-size: 12px;    
 
+}
+
+/* Media query */
+
+@media(max-width:576px){
+    #hero-sec{
+        background-image: url(./assets/hero-md-sm.jpg);
+    }
+    #hero-sec-2{
+        background-image: url(./assets/hero-2-img3.jpg);
+    }
+    #hero-sec-3{
+        background-image: url(./assets/hero-3-img3.jpg);
+    }
+    #footer{
+        padding: 15px 15px;
+    }
+    .footer-sections a{
+        padding:30px 0px;
+    }
+}
+@media (max-width:992px){
+    #footer{
+        padding: 20px 20px;
+    }
+}
+@media(min-width:576px){
+    #hero-sec{
+        background-image: url(./assets/hero-mac.jpg);
+    }
+    #hero-sec-2{
+        background-image: url(./assets/hero-2-img3.jpg);
+    }
+    #hero-sec-3{
+        background-image: url(./assets/hero-3-img3.jpg);
+
+    }
+    
 }
